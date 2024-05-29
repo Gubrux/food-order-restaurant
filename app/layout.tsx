@@ -3,20 +3,21 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Don Chelo Store con Next.js",
-  description: "Don Chelo Store con Next.js",
+    title: "Don Chelo Store con Next.js",
+    description: "Don Chelo Store con Next.js",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className={`${inter.className} bg-gray-100 `}>
+                {children}
+            </body>
+        </html>
+    );
 }
