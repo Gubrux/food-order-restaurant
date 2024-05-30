@@ -17,12 +17,7 @@ export const products = [
         image: "cafe_03",
         categoryId: 1,
     },
-    {
-        name: "Latte Frio con Chocolate Grande",
-        price: 54.9,
-        image: "cafe_04",
-        categoryId: 1,
-    },
+
     {
         name: "Malteada Fria con Chocolate Grande",
         price: 54.9,
